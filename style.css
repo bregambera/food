@@ -1,0 +1,314 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+
+.header{
+	width: 100%;
+	padding: 26px;
+ 
+}
+
+
+a{
+	text-decoration: none;
+}
+
+
+.cabecalhoPrincipal-nav ul li{
+	display: inline-block;
+	flex: end;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+
+
+.searchBackground{
+	display:block;
+	background:url(bk.png) no-repeat right;
+	background-color: rgb(249,248,248);
+    background-color: radial-gradient(circle, rgba(249,248,248,1) 0%, rgba(222,222,222,1) 100%);
+
+}
+
+
+.imgBackground{
+	}
+
+
+.cabecalhoPrincipal-nav-link1{
+	
+	text-align: center;
+}
+
+
+.cabecalhoPrincipal-nav{
+	}
+
+
+.searchBackground{
+	display: block;
+	justify-content: center;	
+}
+
+
+.cabecalhoPrincipal-1{
+	margin-top: 65px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	line-height: ;
+	color:#4D4A56;
+	margin-left: -40px;
+	margin-top: 90px;
+}
+
+
+.cabecalhoPrincipal-2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	color: darkgrey;
+	margin-left: -40px;
+}
+
+
+.search{
+	width:350px;
+	height:40px;
+	margin-left: -40px; 
+	margin-top: 20px; 
+	border-radius: 9px;
+	background-color:#EEE9E9;
+	box-shadow: grey 1px 1px 5px;
+}	
+
+
+.botao1{
+	 background: #7b4cfb;
+     border: 1px solid #CCCCCE;
+     border-radius: 13px;
+     color: #fff;
+     display: block;
+     font-size: 14px;
+     line-height: 25px;
+     text-align: center;
+     text-decoration: none;
+     text-shadow:1px 1px 0 #FFF;
+     padding: 5px 15px;
+     position: relative;
+     width: 10px;
+     margin-right: 80px;
+	 float: right;
+}
+
+
+.botao2{
+	background: #7b4cfb;
+     border: 1px solid #CCCCCE;
+     border-radius: 13px;
+     color: #fff;
+     display: block;
+     font-size: 14px;
+     line-height: 25px;
+     text-align: center;
+     text-decoration: none;
+     text-shadow:1px 1px 0 #FFF;
+     padding: 5px 15px;
+     position: relative;
+     width: 10px;
+     margin-right:5px;
+     float: right;
+ }
+
+
+.content a:hover{
+	background-color: #fff;
+	color: #191970;
+}
+
+
+.categoriasAlimentos h1{
+	margin-left: 150px;
+	font-size: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	color:#4D4A56
+}
+
+
+.categoriasAlimentos h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	margin-left: 440px;
+	margin-top: -20px;
+	font-size: 13px;
+	color:#7b4cfb;
+	cursor: pointer;
+}
+ 
+	
+.alimentos{
+	margin-top: 70px;
+	margin-left: 155px;
+}
+
+
+.alimentos li{
+	display: inline;
+}
+
+
+.alimentos img{
+	-webkit-transition: -webkit-transform .5s ease;
+	transition: transform .5s ease;
+}
+
+
+.alimentos img:hover{
+	-webkit-transform:scale(1.1);
+	transform: scale(1.1);
+}
+
+
+.categoriasAlimentos-link{
+    font-size: 90%;
+	background:#F5F5F5;
+	width: 100%;
+	font-weight: bold;
+	color:#333333;
+	border-radius: 6px;
+	border:none;
+	padding:16px;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow:1px 1px 0 #FFF;
+    padding: 5px 15px;
+    position: relative;
+    width: 80px;
+}
+
+
+.categoriasAlimentos-link img{
+	width: 48px;
+	padding-right: 2px 7px;
+}
+
+
+.botao3{
+	background: #7b4cfb;
+     border: 1px solid #CCCCCE;
+     border-radius: 13px;
+     color: #fff;
+     display: block;
+     font-size: 14px;
+     line-height: 25px;
+     text-align: center;
+     text-decoration: none;
+     text-shadow:1px 1px 0 #FFF;
+     padding: 5px 15px;
+     position: center;
+     width: 10px;
+     margin-right:5px;
+     float: right;
+
+}
+
+
+.produtosPopulares ul{
+	margin-top: 30px;
+	display: inline-flex;
+	-webkit-transition: -webkit-transform .5s ease;
+	transition: transform .5s ease;
+
+}
+
+
+.produtosPopulares ul li:hover{
+	-webkit-transform:scale(1.1);
+	transform: scale(1.1);
+}
+
+
+.produtosPopulares h1{
+	margin-top: 50px;
+	margin-left: 150px;
+	font-size: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	color:#4D4A56
+}
+
+
+.produtosPopulares h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	margin-left: 390px;
+	margin-top: -15px;
+	font-size: 13px;
+	color:#7b4cfb;
+	cursor: pointer;
+}
+
+
+.produtosPopulares-link, img{
+	width: 180px;
+	padding-right: 100px 150px;
+	text-align:center;
+	margin-left: 50px;
+	overflow-x: auto; 
+}
+
+
+.produtosPopulares{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+
+}
+
+.produtosPopulares li {
+	background-color:#F5F5F5;
+	border-radius: 6px;
+	border:none;
+	border-width: 15px;
+	padding:1px;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+.produtosPopularesLista a {
+ 	color: 	#191970;
+ 	font-size: 13px;
+
+}
+
+
+.produtosPopularesLista p {
+	color: #778899;
+	font-size: 10px;
+}
+
+
+.produtosPopularesLista h1{
+	color: #191970;
+	font-size: 15px;
+	margin-left: 10px;
+}
